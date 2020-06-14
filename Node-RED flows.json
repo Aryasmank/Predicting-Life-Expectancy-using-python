@@ -1,0 +1,1 @@
+[{"id":"5840e0d5.28ad8","type":"function","z":"514fa4a3.44e44c","name":"getFrom Endpoint","func":"msg.payload=msg.payload.values[0][0];\n\n\nif(msg.payload < 0) {  \n   msg.payload= msg.payload * -1; \n} \nreturn msg;","outputs":1,"noerr":0,"x":370,"y":400,"wires":[["6ca1e9f.155e618","129916f8.e94b31"]]}]
